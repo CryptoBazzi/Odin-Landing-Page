@@ -1,9 +1,13 @@
 body {
-
+    margin: 0;
 }
 
 .header {
-
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #1f2937;
+    color: white;
 }
 
 .left, .right {
@@ -22,5 +26,50 @@ ul {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+}
+
+.text1 {
+    max-width: 350px
+}
+
+.subheader {
+    flex-direction: column;
+    display: flex;
+}
+
+.button1 {
+    display: inline-block;
+    border: none;
+    padding: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.info {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 100px;
+}
+
+.title {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.text {
+    max-width: 100px;
 }
